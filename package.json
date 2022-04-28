@@ -1,0 +1,23 @@
+{
+  "name": "desafio-reprograma-semana-cinco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naiannegri/desafio-reprograma-semana-cinco.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naiannegri/desafio-reprograma-semana-cinco/issues"
+  },
+  "homepage": "https://github.com/naiannegri/desafio-reprograma-semana-cinco#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
