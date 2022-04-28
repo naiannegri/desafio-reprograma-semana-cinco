@@ -10,8 +10,7 @@ const searchBooks = () => {
     if (opcaoInicial == 'S'){
         for(i=0; i<livros.length; i++) { 
            let categorias = livros.map(livro => livro.categoria)
-           
-           //remove categorias repetidas
+
            categorias = categorias.filter((item, index) => categorias.indexOf(item) === index) 
            console.table(categorias)
 
